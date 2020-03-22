@@ -7,6 +7,5 @@
         name: Autograding
         runs-on: ubuntu-latest
         steps:
-          - name: MongoDB in GitHub Actions
           - uses: actions/checkout@v2
           - uses: education/autograding@v1
