@@ -6,6 +6,11 @@ Unser erstes Express-Projekt, für das automatisch Punkte vergeben Werden.
 - Für jede Aufgabe gibt es eine Abgabefrist. Wenn ein push nach der Uhrzeit der Frist gemacht wird, gibt es dafür keine Punkte
 - Die automatischen Tests können auch direkt auf dem Computer ausgeführt werden, bevor man pusht: `npm test`
 
+## 2. Aufgabe
+- Mach eine Router-Datei `patients.js`, mit den Routen
+
+**Anforderungen (Punkte):**
+
 ## 1. Aufgabe
 - Erstell eine einfache Express-App mit express-generator
 - Bevor du die Abhängigkeiten installierst, füg in der `package.json` die Abhängigkeiten für automatische Tests hinzu:
