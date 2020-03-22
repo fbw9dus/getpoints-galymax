@@ -10,4 +10,4 @@ Mach eine einfache Express-App
 
 **Anforderungen (Punkte):**
 1. Unter `/` kommt eine Antwort mit Status 200 (Der Server funktioniert) (**2**)
-2. Erstell die Route `/api`, die als Antwort das JSON `[{user: 'fake', password: 'fake'}]` schickt (**3**)
+2. Unter `/api` kommt als Antwort das JSON `[{user: 'fake', password: 'fake'}]` (**3**)
