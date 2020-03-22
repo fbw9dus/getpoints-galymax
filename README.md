@@ -4,6 +4,7 @@ Unser erstes Express-Projekt, für das automatisch Punkte vergeben Werden.
 
 - Punkte werden nur dann vergeben, wenn nach dem **push** der automatische Test erfolgreich läuft
 - Für jede Aufgabe gibt es eine Abgabefrist. Wenn ein push nach der Uhrzeit der Frist gemacht wird, gibt es dafür keine Punkte
+- Die automatischen Tests können auch direkt auf dem Computer ausgeführt werden, bevor man pusht: `npm test`
 
 ## 1. Aufgabe
 - Erstell eine einfache Express-App mit express-generator
