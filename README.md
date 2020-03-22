@@ -1,4 +1,4 @@
-# getpoints
+# get points
 
 Unser erstes Projekt, für das automatisch Punkte vergeben Werden.
 
