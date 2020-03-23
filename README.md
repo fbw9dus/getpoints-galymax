@@ -7,9 +7,12 @@ Unser erstes Express-Projekt, für das automatisch Punkte vergeben Werden.
 - Die automatischen Tests können auch direkt auf dem Computer ausgeführt werden, bevor man pusht: `npm test`
 
 ## 2. Aufgabe
-- Mach eine Router-Datei `patients.js`, mit den Routen
+- Mach eine Router-Datei `patients.js`, die unter `/patients` benutzt werden soll.
+- Mach eine Controller-Datei `patientsController.js`. Hier soll `data/patients.js` importiert werden. Der Controller soll zwei Funktionen exportieren, eine, die alle Patienten aus data zurückgibt und eine, die den Patienten an einer bestimmten Stelle im Array zurückgibt.
 
 **Anforderungen (Punkte):**
+- `patients.js` muss einen Router exportieren **(1)**
+- Sub-URLs von `/patients` mit einer Zahl am Ende müssen den Eintrag aus dem patients-Array zurückgeben, der der Zahl entspricht. Z.B. `/patients/2` gibt das Objekt zurück, das an zweiter Stelle im Array ist.
 
 ## 1. Aufgabe
 - Erstell eine einfache Express-App mit express-generator
