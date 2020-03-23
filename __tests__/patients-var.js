@@ -4,14 +4,15 @@ let server;
 
 describe('Patients Router Variable', () => {
   test('should export router', async done => {
-    const response = await request(app)
-    .get('/patients/1')
-    expect(response.body).toEqual({
+    const connection = request(app)
+    const response1 = await connection.get('/patients/1')
+    expect(response1.body).toEqual({
           name: "Lorenzo Galbani",
           positive: false
       })
-      .get('/patients/2')
-    expect(response.body).toEqual({
+
+    const response2 = await connection.get('/patients/2')
+    expect(response2.body).toEqual({
         name: "Martin Heimbach",
         positive: true
       })
