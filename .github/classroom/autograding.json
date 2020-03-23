@@ -12,6 +12,18 @@
       "run": "npm test -- __tests__/api.js",
       "timeout": 10,
       "points": 3
+    },{
+      "name": "patients all",
+      "setup": "npm install",
+      "run": "npm test -- __tests__/patients-base.js",
+      "timeout": 10,
+      "points": 2
+    },{
+      "name": "patients one",
+      "setup": "npm install",
+      "run": "npm test -- __tests__/patients-var.js",
+      "timeout": 10,
+      "points": 3
     }
   ]
 }
