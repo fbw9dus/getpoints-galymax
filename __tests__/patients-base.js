@@ -2,11 +2,17 @@ const app = require('../app')
 const request = require('supertest')
 let server;
 
-describe('Router', () => {
+describe('Patienats Router', () => {
   test('should export router', async done => {
-    const router = require('../routes/patients')
-    
-    expect(router).toEqual([{user: 'fake', password: 'fake'}])
+    const response = await request(app)
+    .get('/patients')
+    expect(response.body).toEqual([{
+          name: "Lorenzo Galbani",
+          positive: false
+      },{
+          name: "Martin Heimbach",
+          positive: true
+      }])
     done();
   })
 })
